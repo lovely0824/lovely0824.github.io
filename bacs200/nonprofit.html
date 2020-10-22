@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BACS200 - Nonprofit Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nonprofit.css">
+</head>
+
+<body class="bg-secondary">
+
+    <header class="bg-dark">
+        <div class="containerfluid?">
+            <div class="row align-items-center bg-white no-gutters">
+                <div class="col">
+                    <a href="images/logo.png"><img src="images/logo.png" class="bg-white col-sm" alt="Dream Team"></a>
+                </div>
+                <div class="col-sm text-center">
+                    <a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E341319&id=1" class="btn btn-warning text-white border border-warning" id="navyblue">
+                        <h1>DONATE TODAY!</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-warning mb-3 sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Section Navbar</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Strategies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Getting Involved</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+
+    <figure>
+        <div class="container">
+            <!-- SLIDER WITH CONTROLS -->
+            <div id="slider2" class="carousel slide mb-3" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid w-100" src="images/Niko.jpg" alt="Niko">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid w-100" src="images/Alfrado.jpg" alt="Alfrado">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid w-100" src="images/Alijah.jpg" alt="Alijah">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid w-100" src="images/Maria.jpg" alt="Maria">
+                    </div>
+                </div>
+
+                <!-- CONTROLS -->
+                <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a href="#slider2" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+        <script>
+            $('.carousel').carousel({
+                interval: 2000,
+                keyboard: true,
+                pause: 'hover',
+                wrap: true
+            });
+
+        </script>
+    </figure>
+
+    <footer>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-warning sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Strategies</a>
+            </div>
+        </nav>
+        <p class="bg-light text-center mt-3 p-2">
+            hello
+        </p>
+    </footer>
+
+</body>
+
+</html>
