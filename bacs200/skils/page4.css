@@ -1,5 +1,5 @@
 .container {
-  position: relative;
+  position: bottom;
   max-width: 800px; /* Maximum width */
   margin: 0 auto; /* Center it */
 }
