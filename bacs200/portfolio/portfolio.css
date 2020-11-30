@@ -38,6 +38,7 @@ p {
     text-decoration: underline overline;
 }
 img {
+    align-content: center;
     padding: 41.5px;
 }
 aside {
